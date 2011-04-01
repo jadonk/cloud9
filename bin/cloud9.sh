@@ -35,6 +35,7 @@ SunOS*)  echo  "Solaris"
 
 
 *) echo "Unknown OS"
+   node bin/cloud9.js -c config.js "$@"
    ;;
 esac
 
