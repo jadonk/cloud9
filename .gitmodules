@@ -1,27 +1,27 @@
 [submodule "support/socket.io"]
 	path = support/socket.io
-	url = ssh://github.com/ajaxorg/Socket.IO-node.git
+	url = git@github.com:ajaxorg/Socket.IO-node.git
 [submodule "support/connect"]
 	path = support/connect
-	url = ssh://github.com/senchalabs/connect.git
+	url = git@github.com:senchalabs/connect.git
 [submodule "support/async"]
 	path = support/async
-	url = ssh://github.com/ajaxorg/async.js.git
+	url = git@github.com:ajaxorg/async.js.git
 [submodule "support/jsdav"]
 	path = support/jsdav
-	url = ssh://github.com/ajaxorg/jsDAV.git
+	url = git@github.com:jadonk/jsDAV.git
 [submodule "support/lib-v8debug"]
 	path = support/lib-v8debug
-	url = ssh://github.com/ajaxorg/lib-v8debug.git
+	url = git@github.com:ajaxorg/lib-v8debug.git
 [submodule "support/ace"]
 	path = support/ace
-	url = ssh://github.com/ajaxorg/ace.git
+	url = git@github.com:ajaxorg/ace.git
 [submodule "support/apf"]
 	path = support/apf
-	url = ssh://github.com/ajaxorg/apf.git
+	url = git@github.com:ajaxorg/apf.git
 [submodule "support/node-builds-v4"]
 	path = support/node-builds-v4
-	url = ssh://github.com/ajaxorg/node-builds-v4.git
+	url = git@github.com:ajaxorg/node-builds-v4.git
 [submodule "support/gnu-builds"]
 	path = support/gnu-builds
-	url = ssh://github.com/ajaxorg/gnu-builds.git
+	url = git@github.com:ajaxorg/gnu-builds.git
