@@ -31,7 +31,7 @@ MING*)  echo  "MingW"
     ;;    
 
 *) echo "Unknown OS"
-   node bin/cloud9.js -c config.js "$@"
+   node bin/cloud9.js -c config.js -d "$@"
    ;;
 esac
 
