@@ -1,5 +1,5 @@
 exports.Config = {
     workspace: ".",
-    ip: "127.0.0.1",
+    ip: "10.1.123.2",
     port: 3000
 };
