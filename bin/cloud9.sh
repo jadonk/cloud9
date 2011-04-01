@@ -3,19 +3,20 @@
 cd `dirname $0`
 cd ..
 if [ ! -e support/ace/LICENSE ]; then
-	echo "--------------------------- Please wait, initializing submodules for first launch ------------------------"
+    echo "--------------------------- Please wait, initializing submodules for first launch ------------------------"
+    git submodule foreach --recursive "perl -pe 's/git\:\/\/([^\/]+)\//git\@\$1:/' -i.bak .git/config"
     git submodule update --init --recursive
-	echo "--------------------------- Submodules installed ------------------------"
+    echo "--------------------------- Submodules installed ------------------------"
 fi
 
 case `uname -a` in
 Linux*x86_64*)  echo "Linux 64 bit"   
-	support/node-builds/lin64/node bin/cloud9.js "$@" -a x-www-browser
-	;;
+    support/node-builds/lin64/node bin/cloud9.js "$@" -a x-www-browser
+    ;;
 
 Linux*i686*)  echo "Linux 32 bit"   
-	support/node-builds/lin32/node bin/cloud9.js "$@" -a x-www-browser
-	;;
+    support/node-builds/lin32/node bin/cloud9.js "$@" -a x-www-browser
+    ;;
     
 Darwin*)  echo  "OSX"
     support/node-builds/osx64/node bin/cloud9.js "$@" -a open
