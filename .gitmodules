@@ -1,6 +1,6 @@
 [submodule "support/socket.io"]
 	path = support/socket.io
-	url = http://github.com/ajaxorg/Socket.IO-node.git
+	url = http://github.com/ajaxorg/socket.io.git
 [submodule "support/connect"]
 	path = support/connect
 	url = http://github.com/senchalabs/connect.git
@@ -18,7 +18,7 @@
 	url = http://github.com/ajaxorg/lib-v8debug.git
 [submodule "support/ace"]
 	path = support/ace
-	url = http://github.com/ajaxorg/ace.git
+	url = http://github.com/jadonk/ace.git
 [submodule "support/apf"]
 	path = support/apf
 	url = http://github.com/ajaxorg/apf.git
