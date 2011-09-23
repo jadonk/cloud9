@@ -1,6 +1,6 @@
 [submodule "support/connect"]
 	path = support/connect
-	url = git://github.com/senchalabs/connect.git
+	url = git://github.com/jadonk/connect.git
 [submodule "support/asyncjs"]
 	path = support/asyncjs
 	url = git://github.com/ajaxorg/async.js.git
